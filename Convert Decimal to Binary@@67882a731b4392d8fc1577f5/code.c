@@ -14,7 +14,8 @@ void decimalToBinary(int num) {
 
 int main() {
     int num;
-    printf("Enter a decimal number: ");
+    int started=0;
+    printf("");
     scanf("%d", &num);
 
     printf("Binary: ");
