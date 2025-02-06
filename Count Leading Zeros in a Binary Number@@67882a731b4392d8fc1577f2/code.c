@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    printf("%d",1^a);
+    unsigned int a;
+    scanf("%u",&a);
+    int c=__builtin_clz(a);
+    printf("%d",c);
 }
