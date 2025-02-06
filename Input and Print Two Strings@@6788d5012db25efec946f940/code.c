@@ -2,7 +2,7 @@
 int main(){
     char a[10],b[10] ;
     printf("");
-    scanf("%c %c",&a,&b);
-    printf("You entered: %c and %c\n",a,b);
+    scanf("%s %s",&a,&b);
+    printf("You entered: %s and %s\n",a,b);
     return 0;
 }
