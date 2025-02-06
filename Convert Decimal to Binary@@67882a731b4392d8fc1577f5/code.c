@@ -18,7 +18,7 @@ int main() {
     printf("");
     scanf("%d", &num);
 
-    printf("Binary: ");
+    printf("");
     decimalToBinary(num);
 
     return 0;
