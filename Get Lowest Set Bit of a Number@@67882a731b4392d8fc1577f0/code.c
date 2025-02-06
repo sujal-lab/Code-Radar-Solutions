@@ -1,21 +1,27 @@
 #include <stdio.h>
 
-int findLowestSetBit(int x) {
-    if (x == 0) return 0;  // No set bit in 0
-    int position = 1;
-    while (!(x & 1)) { // Keep shifting until LSB is 1
-        x >>= 1;
-        position++;
+int lowestSetBitPosition(int num) {
+    if (num == 0) return 0;  // No set bit in 0
+
+    int pos = 1;  // Position starts from 1
+    while ((num & 1) == 0) {  // Keep shifting right until we find a '1'
+        num >>= 1;
+        pos++;
     }
-    return position;
+    return pos;
 }
 
 int main() {
     int num;
-    printf("");
+    printf("Enter a number: ");
     scanf("%d", &num);
 
-    int position = findLowestSetBit(num);
-    printf("%d", position);
+    int position = lowestSetBitPosition(num);
+    if (position)
+        printf("%d\n", position);
+    else
+        printf("\n");
+
     return 0;
 }
+
