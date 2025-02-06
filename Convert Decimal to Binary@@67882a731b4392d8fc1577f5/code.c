@@ -21,10 +21,10 @@ void decimalToBinary(int num) {
 
 int main() {
     int num;
-    printf("Enter a decimal number: ");
+    printf("");
     scanf("%d", &num);
 
-    printf("Binary: ");
+    printf("");
     decimalToBinary(num);
 
     return 0;
