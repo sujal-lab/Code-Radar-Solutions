@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include<math.h>
 
 int main(){
-    int a;
-    scanf("%d",&a);
-    printf("%d",a^2);
+    double a,b;
+    scanf("%ls %ls",&a,&b);
+    double result= pow(a,b);
+    printf("%f",b);
 }
