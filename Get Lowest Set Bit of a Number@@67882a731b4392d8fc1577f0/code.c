@@ -1,9 +1,13 @@
 #include <stdio.h>
-#include <math.h>
 
 int findLowestSetBit(int x) {
     if (x == 0) return 0;  // No set bit in 0
-    return log2(x & -x) + 1;
+    int position = 1;
+    while (!(x & 1)) { // Keep shifting until LSB is 1
+        x >>= 1;
+        position++;
+    }
+    return position;
 }
 
 int main() {
