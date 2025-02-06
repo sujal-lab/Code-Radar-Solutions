@@ -13,7 +13,7 @@ int lowestSetBitPosition(int num) {
 
 int main() {
     int num;
-    printf("");
+ 
     scanf("%d", &num);
 
     int position = lowestSetBitPosition(num);
