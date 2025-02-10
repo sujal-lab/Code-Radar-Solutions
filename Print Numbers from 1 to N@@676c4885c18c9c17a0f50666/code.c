@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    int a,n;
     scanf("%d",&a);
-    while (int n=a;n++);{
+    a=n;
+    while (n++);{
         printf("%d",n)
         break;}
 }
