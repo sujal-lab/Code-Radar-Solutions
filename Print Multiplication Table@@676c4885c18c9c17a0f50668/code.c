@@ -6,7 +6,7 @@ int main(){
     while(n<=a){
         mul *= n;
         n++;}
-    printf("a x n = %d\n",mul);
+    printf("a x n = %d\n",a,n,mul);
     return 0;
 
 }
