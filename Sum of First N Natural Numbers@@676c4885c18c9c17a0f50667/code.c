@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(){
-    int a,n=1,sum;
+    int a,n=1,sum=0;
     scanf("%d",&a);
     while(n<=a){
         sum+=n;
         n++;
-        printf("%d\n",sum);
+       
     }
+    printf("%d\n",sum);
     return 0;
 }
