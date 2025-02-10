@@ -7,4 +7,5 @@ int main(){
         n++;
         printf("%d",sum);
     }
+    return 0;
 }
