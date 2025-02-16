@@ -3,9 +3,9 @@
 int main(){
     int a,n=1;
     scanf("%d",&a);
-    while(n<=10){
+    for(n<=10;n++){
         printf("%d x %d = %d\n",a,n,a*n);
-        n++;}
+        }
     
     return 0;
 
