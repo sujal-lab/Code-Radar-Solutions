@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    int a,n=1;
     scanf("%d",&a);
-    for(int n=1;n<=10;n++){
+    while(n<=10){
         printf("%d x %d = %d\n",a,n,a*n);
-        }
+        n++;}
     
     return 0;
 
