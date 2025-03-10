@@ -2,7 +2,7 @@
 int main(){
     int N;
     scanf("%d",&N);
-    char aplha;
+    char alpha;
     for(int i=1;i<=N;i++){
         alpha='A';
         for(int space=1;space=N-i;space++){
