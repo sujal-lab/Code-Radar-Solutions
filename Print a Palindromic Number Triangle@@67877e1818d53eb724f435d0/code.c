@@ -16,5 +16,6 @@ int main(){
             printf("%d ",count);
             count++;
         }
-    }printf("\n");
+        printf("\n");
+    }
 }
