@@ -2,12 +2,12 @@
 int main(){
     int N;
     scanf("%d",&N);
-    int count;
+    char alpha;
     for(int i=1;i<=N;i++){
-        count=1;
+        alpha='A';
         for(int j=1;j<=i;j++){
-            printf("%d ",count);
-            count++;
+            printf("%c ",alpha);
+            alpha++;
         }
         printf("\n");
     }
