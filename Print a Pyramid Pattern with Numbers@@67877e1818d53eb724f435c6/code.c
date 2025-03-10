@@ -6,7 +6,7 @@ int main(){
     for(i=1;i<=a;i++){
         count=1;
         for(int space=1;space<=a-i;space++){
-            printf("  ");
+            printf(" ");
         }
         for(j=1;j<=i;j++){
             printf("%d",count);
