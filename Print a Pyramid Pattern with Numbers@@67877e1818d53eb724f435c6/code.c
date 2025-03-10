@@ -1,17 +1,13 @@
 #include<stdio.h>
 int main(){
-    int N;
-    scanf("%d",&N);
-    char alpha;
-    for(int i=1;i<=N;i++){
-        alpha='A';
-        for(int space=1;space<=N-i;space++){
+    int a,i,j;
+    scanf("%d",&a);
+    for(i=1;i<=a;i++){
+        for(int space=1;space<=a-i;space++){
             printf(" ");
         }
-        for(int j=1;j<=2*i-1;j++){
-            printf("%c ",alpha);
-            alpha++;
-        }
+        for(j=1;j<=2*i-1;j++){
+            printf("*");}
         printf("\n");
     }
 }
