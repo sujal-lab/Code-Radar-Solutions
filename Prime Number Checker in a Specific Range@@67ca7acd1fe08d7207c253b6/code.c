@@ -1,20 +1,23 @@
 #include <stdio.h>
-void printPrimesInRange(int a, int b);
+
+// Function to check if a number is prime
+int isPrime(int num) {
+    if (num < 2) return 0;  // Numbers < 2 are not prime
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) return 0;  // If divisible, not prime
+    }
+    return 1;  // If no divisors found, it's prime
+}
+
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
     
-    printPrimesInRange(a, b); 
-    return 0;
-}
-void printPrimesInRange(int a, int b) {
-    for (; a < b; a++) {
-        if (a == 2 || a == 3 || a == 5) {
-            printf("%d ", a);
-        } 
-        else if (a > 1 && a % 2 != 0 && a % 3 != 0 && a % 5 != 0) {
-            printf("%d ", a);
+    for (int i = a; i < b; i++) {
+        if (isPrime(i)) {
+            printf("%d ", i);
         }
     }
     printf("\n");
+    return 0;
 }
