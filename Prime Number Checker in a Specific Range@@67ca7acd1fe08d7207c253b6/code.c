@@ -1,18 +1,12 @@
 #include <stdio.h>
-
-// Function declaration
 void printPrimesInRange(int a, int b);
-
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
     
-    printPrimesInRange(a, b); // Calling the function
-
+    printPrimesInRange(a, b); 
     return 0;
 }
-
-// Function definition
 void printPrimesInRange(int a, int b) {
     for (; a < b; a++) {
         if (a == 2 || a == 3 || a == 5) {
