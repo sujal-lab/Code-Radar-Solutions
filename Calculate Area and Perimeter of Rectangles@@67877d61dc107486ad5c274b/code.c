@@ -3,7 +3,7 @@ int main(){
     int n,a,b,;
     float x,z;
     scanf("%d",n);
-    for(int i=1;i<=n,i++){
+    for(int i=1;i<=n;i++){
         scanf("%d %d",&a, &b);
         x=a*b;
         z=2*(a+b);
