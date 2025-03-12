@@ -7,7 +7,7 @@ int main(){
         scanf("%d %d",&a, &b);
         x=a*b;
         z=2*(a+b);
-        printf("Rectangle %d: Area = %f, Perimeter = %f",n,x,z);
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",n,x,z);
         printf("\n");
     }
     
