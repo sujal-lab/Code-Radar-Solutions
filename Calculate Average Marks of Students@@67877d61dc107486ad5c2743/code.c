@@ -8,6 +8,7 @@ int main(){
         int c;
         scanf("%d %c %f",&c,&a,&b);
         d=b/c;
-        printf("Average Marks: %.2f",d);
+        
     }
+    printf("Average Marks: %.2f",d);
 }
