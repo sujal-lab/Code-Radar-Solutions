@@ -10,8 +10,8 @@ int main(){
         d=b/n;
         
     }
-    float d;
-    d=b/n;
+    
+    float d=b/n;
     printf("Average Marks: %.2f",d);
     return 0;
 }
