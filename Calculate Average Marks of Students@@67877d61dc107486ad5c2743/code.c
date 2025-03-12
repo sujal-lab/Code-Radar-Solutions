@@ -11,4 +11,5 @@ int main(){
         printf("Average Marks: %.2f",d);
         printf("\n");
     }
+    return 0;
 }
