@@ -9,5 +9,6 @@ int main(){
         scanf("%d %c %f",&c,&a,&b);
         d=b/c;
         printf("Average Marks: %.2f",d);
+        printf("\n");
     }
 }
