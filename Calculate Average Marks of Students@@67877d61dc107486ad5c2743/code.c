@@ -7,7 +7,7 @@ int main(){
         float b;
         int c;
         scanf("%d %s %f",&c,a,&b);
-        d=b/n;
+    
         
     }
     
