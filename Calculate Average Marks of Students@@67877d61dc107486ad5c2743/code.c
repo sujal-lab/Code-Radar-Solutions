@@ -4,12 +4,14 @@ int main(){
     scanf("%d",&n);
     for (int i=1;i<=n;i++){
         char a[20];
-        float b,d;
+        float b;
         int c;
         scanf("%d %s %f",&c,a,&b);
         d=b/n;
         
     }
+    float d;
+    d=b/n;
     printf("Average Marks: %.2f",d);
     return 0;
 }
