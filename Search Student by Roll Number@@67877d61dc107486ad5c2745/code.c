@@ -10,7 +10,7 @@ int main(){
         float c;
         char d[20];
         scanf("%d %s %f",&b, d, &c);
-        if(b==rollno){printf("%d %s %.2f",b,d,c);
+        if(b==rollno){printf("%d %s %.2f\n",b,d,c);
         found=1;}
 
     }
