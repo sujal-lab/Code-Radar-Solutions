@@ -7,7 +7,7 @@ int main(){
         float c;
         int d;
         scanf("%d %s %f",&d, b, &c);
-        printf("Roll Number: %d, Name: %s, Marks: %.2f",i,b,c);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f",d,b,c);
         printf("\n");
     
     }
