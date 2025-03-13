@@ -14,6 +14,7 @@ int main(){
     
     if(all_passed) printf("All Passed");
     else  printf("Not all passed");
+    return 0;
     }
        
 
