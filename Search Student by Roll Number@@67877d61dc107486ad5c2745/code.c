@@ -9,7 +9,7 @@ int main(){
         int b;
         float c;
         char d[20];
-        scanf("%d %s %f",&b, d, &c);
+        scanf("%d %s %f", b, d, &c);
         if(b==rollno){printf("%d %s %.2f\n",b,d,c);
         found=1;
         break;}
