@@ -12,7 +12,7 @@ int main(){
         scanf("%d %s %f",&b, d, &c);
         if(b==rollno){printf("%d %s %.2f\n", b, d, c);
         found=1;
-        break;}
+        }
 
     }
     if(!found){printf("Student not found\n");}
