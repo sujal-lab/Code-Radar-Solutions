@@ -3,10 +3,11 @@ int main(){
     int a;
     int found=0;
     scanf("%d",&a);
+    int b[a];
+    float c[a];
+    char d[a][20];
     for(int i=1;i<=a;i++){
-        int b[a];
-        float c[a];
-        char d[a][20];
+        
         scanf("%d %s %f",&b[i], d[i], &c[i]);
     }
     int rollno;
