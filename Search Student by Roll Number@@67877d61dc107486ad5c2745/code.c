@@ -4,9 +4,9 @@ int main(){
     int found=0;
     scanf("%d",&a);
     for(int i=1;i<=a;i++){
-        int b;
-        float c;
-        char d[20];
+        int b[a];
+        float c[a];
+        char d[a][20];
         scanf("%d %s %f",&b[i], d[i], &c[i]);
     }
     int rollno;
