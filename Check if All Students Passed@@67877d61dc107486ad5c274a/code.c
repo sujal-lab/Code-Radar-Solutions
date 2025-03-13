@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d %s %f",&b, c, &d);}
     
-     if(d>50.00) printf("All Passed");
+    if(d>50.00) printf("All Passed");
     else if(d<50.00) printf("Not all passed");
     }
        
