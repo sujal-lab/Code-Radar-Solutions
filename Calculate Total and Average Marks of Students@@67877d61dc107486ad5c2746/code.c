@@ -10,6 +10,6 @@ int main(){
         scanf("%d %s %f",&b, c, &d);
         total_marks+=d;
     }
-    printf("Total Marks: %f\n",total_marks);
-    printf("Average Marks: %f\n",total_marks/a);
+    printf("Total Marks: %.2f\n",total_marks);
+    printf("Average Marks: %.2f\n",total_marks/a);
 }   
