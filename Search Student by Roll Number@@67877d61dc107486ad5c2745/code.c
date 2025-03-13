@@ -6,7 +6,7 @@ int main(){
     int b[a];
     float c[a];
     char d[a][20];
-    for(int i=1;i<=a;i++){
+    for(int i=0;i<a;i++){
         
         scanf("%d %s %f",&b[i], d[i], &c[i]);
     }
