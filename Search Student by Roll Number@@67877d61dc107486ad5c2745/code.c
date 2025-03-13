@@ -12,7 +12,7 @@ int main(){
     }
     int rollno;
     scanf("%d",&rollno);
-    for(int i=1;i<=a;i++){
+    for(int i=0;i<a;i++){
         if (rollno==b[i]){
             printf("Roll Number: %d, Name: %s, Marks: %.2f",b[i],d[i],c[i]);
             found=1;
