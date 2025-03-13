@@ -11,7 +11,7 @@ int main(){
     float threshold;
     for(int i=0;i<a;i++){
         if(d>threshold){
-            printf("Count of students scoring above %.2f: %d",d,i);
+            printf("Count of students scoring above %.2f: %d",threshold,i);
         }
     }
 }
