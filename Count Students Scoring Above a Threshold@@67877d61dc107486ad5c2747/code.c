@@ -13,7 +13,7 @@ int main(){
     int count=0;
     for(int i=0;i<a;i++){
         if(d[a]>threshold){
-            count++
+            count++;
             printf("Count of students scoring above %.2f: %d",threshold,count);
         }
     }
