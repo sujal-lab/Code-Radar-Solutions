@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
     int total_marks=0;
-    for(i=1;i<=a;i++){
+    for(int i=1;i<=a;i++){
         int b;
         char c[20];
         float d;
