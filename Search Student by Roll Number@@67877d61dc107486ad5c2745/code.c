@@ -3,6 +3,7 @@ int main(){
     int a,rollno;
     int found=0;
     scanf("%d",&a);
+    scanf("%d",&rollno);
     
     for(int i=1;i<=a;i++){
         int b;
