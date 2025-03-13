@@ -9,6 +9,8 @@ int main(){
         scanf("%d %s %f",&b, c, &d);
     }
     float threshold;
+    scanf("%f",&threshold);
+    count=0;
     for(int i=0;i<a;i++){
         if(d[a]>threshold){
             count++
