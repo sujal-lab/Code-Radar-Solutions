@@ -13,7 +13,7 @@ int main(){
     int rollno;
     scanf("%d",&rollno);
     for(int i=1;i<=a;i++){
-        if (rollno==b){
+        if (rollno==b[i]){
             printf("%d %s %.2f",b[i],d[i],c[i]);
             found=1;
             break;
