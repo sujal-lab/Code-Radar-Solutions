@@ -10,7 +10,7 @@ int main(){
     }
     float threshold;
     scanf("%f",&threshold);
-    count=0;
+    int count=0;
     for(int i=0;i<a;i++){
         if(d[a]>threshold){
             count++
