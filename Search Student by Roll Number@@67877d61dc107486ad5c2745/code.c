@@ -9,7 +9,7 @@ int main(){
         char d[a][20];
         scanf("%d %s %f",&b[i], d[i], &c[i]);
     }
-    int rollno;
+    int rollno[a];
     scanf("%d",&rollno);
     for(int i=1;i<=a;i++){
         if (rollno==b){
