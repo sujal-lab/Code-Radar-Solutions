@@ -21,11 +21,11 @@ void printArray(int arr[], int size) {
 
 int main() {
     int n;
-    scanf("%d", &n); // Reading the number of elements
-    int arr[n]; // Creating an array of size n
+    scanf("%d", &n); 
+    int arr[n]; 
     
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]); // Reading n elements into the array
+        scanf("%d", &arr[i]); 
     }
     
     printf("Original array: \n");
