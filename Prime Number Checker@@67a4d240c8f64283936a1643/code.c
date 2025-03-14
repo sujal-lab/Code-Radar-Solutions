@@ -1,21 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
 
-void printPrimesInRange(int a, int b);
-int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    
-    printPrimesInRange(a, b); 
-    return 0;
-}
-void printPrimesInRange(int a, int b) {
-    for (; a < b; a++) {
-        if (a == 2 || a == 3 || a == 5) {
-            printf("%d ", a);
-        } 
-        else if (a > 1 && a % 2 != 0 && a % 3 != 0 && a % 5 != 0) {
-            printf("%d ", a);
+    for(int i=1;i<=n;i++){
+        int t;
+        scanf("%d",&t);
+        for(int j=1;j<=t;j++){
+            if(t==2||t==3||t==5){
+                printf("1");
+            }
+            else if(t%2!=0||t%3!=0||t%5!=0) printf("1");
+            else printf("0");
+
         }
     }
-    printf("\n");
 }
