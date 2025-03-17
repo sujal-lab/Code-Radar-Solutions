@@ -5,7 +5,7 @@ int PrimesInRange(int num){
     else return 0;
 }
 
-for (;a<b;a++){
+for (;a<=b;a++){
     printf("%d",PrimesInRange);
     printf("\n");
 }
