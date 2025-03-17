@@ -7,13 +7,13 @@ int isPrime(int num) {
     return 1;
 }
 
-void printPrimesInRange(int a, int b) {
-    int found = 0; // Flag to check if any prime number is found
+int printPrimesInRange(int a, int b) {
+    int found = 0; 
 
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
             printf("%d ", i);
-            found = 1; // Prime number found
+            found = 1;
         }
     }
 
@@ -21,5 +21,4 @@ void printPrimesInRange(int a, int b) {
         printf("No prime numbers");
     }
 
-    printf("\n"); // To ensure proper formatting
-}
+    printf("\n"); }
