@@ -4,10 +4,10 @@ int PrimesInRange(int num){
     else if (num%2!=0||num%3!=0||num%5!=0) return 1;
     else return 0;
 }
-
+{
 for (int i=a;i<=b;i++){
     if(PrimesInRange(i)){
         printf("%d\n",i);
     }
 
-}
+}}
