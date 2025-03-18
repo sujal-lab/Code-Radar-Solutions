@@ -3,10 +3,10 @@ int fibonacciSeries(int n){
     return fibonacciSeries(n-1) + fibonacciSeries(n-2);
 }
 
- (   if (n <= 0) {
+ if (n <= 0) {
         printf("Invalid input\n");
         return 0;
     }
     fibonacciSeries(n);
 
-    return 0;)
+    return 0;
