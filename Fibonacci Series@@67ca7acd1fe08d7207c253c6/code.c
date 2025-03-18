@@ -8,3 +8,6 @@ int master(){
 
     printf("%d",fibonacciSeries(n));
     return 0;}
+    int main(){
+        return master;
+    }
