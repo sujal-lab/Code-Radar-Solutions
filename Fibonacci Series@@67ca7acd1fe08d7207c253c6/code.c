@@ -7,13 +7,13 @@ int fibonacciSeries(int n) {
 
 
     // Validate input
-    if (n <= 0) {
-        printf("Invalid input\n");
-        return 0;
+if (n <= 0) {
+    printf("Invalid input\n");
+    return 0;
     }
 
     // Call Fibonacci function and print result
-    printf("%d\n", fibonacciSeries(n));
+printf("%d\n", fibonacciSeries(n));
 
-    return 0;
+return 0;
 
