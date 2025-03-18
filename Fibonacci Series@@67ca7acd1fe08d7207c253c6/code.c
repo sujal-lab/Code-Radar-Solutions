@@ -5,12 +5,6 @@ int fibonacciSeries(int n) {
     return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
 }
 
-int main() {
-    int n;
-    
-    // Take user input
-    printf("Enter a number: ");
-    scanf("%d", &n);
 
     // Validate input
     if (n <= 0) {
@@ -22,4 +16,4 @@ int main() {
     printf("Fibonacci result: %d\n", fibonacciSeries(n));
 
     return 0;
-}
+
