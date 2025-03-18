@@ -1,19 +1,16 @@
-#include <stdio.h>
+void fibonacciSeries(int n) {
+    int t1 = 0, t2 = 1, nextTerm;
 
-int fibonacciSeries(int n) {
-    if (n <= 1) return n;
-    return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
+    printf("Fibonacci Series: ");
+    
+    for (int i = 1; i <= n; i++) {
+        printf("%d ", t1);
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+    
+    printf("\n");
 }
 
-
-    // Validate input
-if (n <= 0) {
-    printf("Invalid input\n");
-    return 0;
-    }
-
-    // Call Fibonacci function and print result
-printf("%d\n", fibonacciSeries(n));
-
-return 0;
 
