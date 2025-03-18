@@ -13,7 +13,7 @@ int fibonacciSeries(int n) {
     }
 
     // Call Fibonacci function and print result
-    printf("Fibonacci result: %d\n", fibonacciSeries(n));
+    printf("%d\n", fibonacciSeries(n));
 
     return 0;
 
